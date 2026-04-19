@@ -1,14 +1,14 @@
-# 🎮 Kubernetes EKS 2048 Game Deployment
+# Kubernetes EKS 2048 Game Deployment
 
 Deployed the 2048 game on AWS EKS Fargate using kubectl, eksctl, Helm and AWS Load Balancer Controller.
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - AWS EKS Fargate
 - kubectl, eksctl, AWS CLI
 - Helm
 - AWS Load Balancer Controller (ALB Ingress)
 
-## 📋 Steps Followed
+## Steps Followed
 1. Created EKS Fargate cluster using eksctl
 2. Associated IAM OIDC provider
 3. Created IAM policy and service account
